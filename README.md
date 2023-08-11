@@ -1,46 +1,60 @@
-# Getting Started with Create React App and Redux
+# Mailicious - Building Gmail with React.js
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+![mailicious-high-resolution-logo-black-on-transparent-background](https://github.com/syarwinaaa09/Mailicious/assets/114587158/474f0522-b35b-46f9-b168-5a741fc0d789)
 
-## Available Scripts
+Welcome to Mailicious! This project aims to recreate the functionality of Gmail using the power of React.js along with additional libraries like React-Router, Redux, and Firebase. With Mailicious, you'll be able to experience the core features of Gmail while also gaining insights into how these technologies can be integrated to create a modern web application.
 
-In the project directory, you can run:
+### Features
+Mailicious will incorporate the following key features:
+1. **User Authentication**: Utilizing Firebase's authentication services, Mailicious will allow users to sign up, log in, and manage their accounts securely.
+2. **Inbox**: Experience a responsive and dynamic inbox interface where users can view and manage their email conversations.
+3. **Compose Emails**: Create and send emails using a rich text editor, giving you the ability to format your messages effectively.
+4. **Labels and Categories**: Organize your emails with labels and categories, just like in Gmail.
+5. **Search**: Implement a powerful search functionality that lets users quickly find the emails they're looking for.
+6. **React-Router**: Utilize React-Router to create a seamless single-page application experience, allowing for smooth navigation between different sections of the app.
+7. **Redux Integration**: Manage the app's state efficiently with Redux, ensuring a clear and predictable data flow throughout the application.
 
-### `npm start`
+### Getting Started
+To get started with Mailicious, follow these steps:
+1. **Clone the Repository**: Clone this repository to your local machine using the following command:
+```
+git clone https://github.com/syarwinaaa09/Mailicious.git
+```
+2. **Install Dependencies**: Navigate to the project directory and install the necessary dependencies using npm or yarn:
+```
+cd mailicious
+npm install
+```
+3. **Firebase Setup**: Create a Firebase project and configure the Firebase credentials in the app. Refer to the Firebase documentation for more details.
+4. **Run the App**: Start the development server and launch the app:
+```
+npm start
+```
+5. **Explore**: Open your browser and navigate to `http://localhost:3000` to explore Mailicious and its features.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Contribution Guidelines
+If you're interested in contributing to Mailicious, feel free to submit pull requests! Here's how:
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix:
+```
+git checkout -b feature/your-feature-name
+```
+3. Make your changes and commit them.
+4. Push your changes to your fork:
+```
+git push origin feature/your-feature-name
+```
+5. Submit a pull request to the `main` branch of the original repository.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Acknowledgements
+This project is inspired by the functionality and design of Gmail. Special thanks to the open-source community for providing the tools and libraries that make Mailicious possible.
 
-### `npm test`
+### Contact
+For any questions or inquiries, feel free to reach out to me:
+* Email: syarwinaaa09@gmail.com
+* GitHub: syarwinaaa09
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Let's build the future of email together with Mailicious and the power of React.js!
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Credits
+Syarwina Ridwan
